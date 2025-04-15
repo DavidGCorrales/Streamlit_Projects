@@ -1,8 +1,6 @@
 import streamlit as st
 import pandas as pd
 
-'This is a Test Dashboard'
-
 # Create DataFrame
 df = pd.DataFrame({
     'first column': [1, 2, 3, 4],
