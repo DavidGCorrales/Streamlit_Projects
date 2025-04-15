@@ -2,10 +2,10 @@ import streamlit as st
 import pandas as pd
 
 # Create DataFrame
-# df = pd.DataFrame({
-#     'first column': [1, 2, 3, 4],
-#     'second column': [10, 20, 30, 40]
-# })
+df = pd.DataFrame({
+    'first column': [1, 2, 3, 4],
+    'second column': [10, 20, 30, 40]
+})
 
 # Streamlit App
 st.title("Simple Bar Chart in Streamlit")
